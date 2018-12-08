@@ -8,4 +8,17 @@ Die Webseite soll zunächst folgenden Zwecken dienen:
 
 ## Mögliche Kapitel, die sich für eine interaktive Grafik eignen
 
-TODO
+* (Lineare) Regression
+* Klassifikation
+* k-Nearest-Neighbours
+* k-Means Clustering
+    * schrittweise Verfeinerung darstellen
+* PCA
+    * ermöglicht Exploration von Daten im R^3
+* SVM
+* Entscheidungsbäume
+* Perzeptron
+* Gradient Descent?
+* Bayes?
+* Verstärkendes Lernen
+
