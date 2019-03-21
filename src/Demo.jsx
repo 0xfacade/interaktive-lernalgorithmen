@@ -1,5 +1,6 @@
 import React from 'react';
 import Select from 'react-select';
+import GitHubButton from 'react-github-btn';
 
 import LinearRegression from './linear_regression/LinearRegression';
 import KMeans from './kmeans/KMeans';
@@ -37,8 +38,17 @@ export default class Demo extends React.Component {
         return (
             <div className="container">
                 <h1>Demo der interaktiven Algorithmen</h1>
+                <div className="d-flex justify-content-start">
+                    <p className="mr-3">Mitmachen auf GitHub: </p>
+                    <GitHubButton
+                        href="https://github.com/0xfacade/interaktive-lernalgorithmen/"
+                        data-icon="octicon-repo-forked"
+                        data-size="large"
+                        aria-label="Fork 0xfacade/interaktive-algorithmen on GitHub">
+                        Fork
+                    </GitHubButton>
+                </div>
                 <div className="mb-3">
-                    <p>Algorithmus:</p>
                     <Select
                         value={this.state.choice}
                         options={this.getOptions()}
