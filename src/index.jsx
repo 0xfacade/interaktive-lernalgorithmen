@@ -1,7 +1,7 @@
 import ReactDom from 'react-dom';
 import React from 'react';
 
-import KMeans from './kmeans/KMeans'
+import Demo from './Demo';
 
 const root = document.getElementById("react-root");
-ReactDom.render(<KMeans />, root);
+ReactDom.render(<Demo />, root);
