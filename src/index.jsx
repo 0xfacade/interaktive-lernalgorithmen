@@ -1,7 +1,7 @@
 import ReactDom from 'react-dom';
 import React from 'react';
 
-import AllInOne from './AllInOne';
+import KMeans from './kmeans/KMeans'
 
 const root = document.getElementById("react-root");
-ReactDom.render(<AllInOne />, root);
+ReactDom.render(<KMeans />, root);

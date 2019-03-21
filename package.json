@@ -20,9 +20,12 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.16",
     "@fortawesome/free-solid-svg-icons": "^5.8.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "numjs": "^0.16.0",
+    "plotly.js": "^1.45.3",
     "rc-slider": "^8.6.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-plotly.js": "^2.3.0",
     "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
